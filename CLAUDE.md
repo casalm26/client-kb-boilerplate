@@ -1,3 +1,13 @@
+# Setup Check
+
+**If this file still contains the literal text `[YOUR_NAME]`, the system is not yet configured.**
+Read and follow `_setup/wizard.md` immediately. Do not proceed with normal KB operations until setup is complete.
+
+**If the user says "reconfigure", "change settings", "add tools", or "add clients":**
+Read `_setup/wizard.md` and run only the relevant phase.
+
+---
+
 # Client Knowledge Base
 
 This is [YOUR_NAME]'s client knowledge base. It contains profiles, activity logs, strategies, and meeting notes for Emax clients (paid social / digital marketing).
