@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Read([VAULT_ROOT]/**)",
+      "Glob([VAULT_ROOT]/**)",
+      "Grep([VAULT_ROOT]/**)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(cat:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(wc:*)",
+      "Bash(diff:*)",
+      "Bash(grep:*)",
+      "Bash(source */.env*)",
+      "Bash(python3 -c \":*)",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s \"$SUPABASE_URL*)",
+      "WebFetch(domain:*)",
+      "WebSearch",
+      "mcp__mcp-registry__suggest_connectors",
+      "mcp__mcp-registry__search_mcp_registry",
+      "mcp__scheduled-tasks__list_scheduled_tasks",
+      "mcp__Claude_in_Chrome__read_page",
+      "mcp__Claude_in_Chrome__get_page_text",
+      "mcp__Claude_in_Chrome__find",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "mcp__Claude_in_Chrome__read_console_messages",
+      "mcp__Claude_in_Chrome__read_network_requests",
+      "mcp__Claude_in_Chrome__shortcuts_list"
+    ]
+  }
+}
