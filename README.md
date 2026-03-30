@@ -8,6 +8,7 @@ An Obsidian + Claude Code knowledge base for managing Emax clients. Built for pa
 - **Auto-logging:** After work, Claude logs what was done and why — feeds into CRM comments
 - **Meeting processing:** Share a Fireflies link and get structured notes, action items, and follow-up emails
 - **Weekly CRM review:** Friday summaries compiled into Data Pulse-ready comments
+- **Knowledge compounding:** Solved problems are documented and auto-retrieved next time
 - **CRM sync:** Pulls client notes, grades, and contracts from Supabase
 
 ## Getting started

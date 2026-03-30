@@ -1,5 +1,6 @@
 ---
 client: {{title}}
+last_updated:
 ---
 
 # Activity Log — {{title}}

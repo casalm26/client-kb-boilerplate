@@ -69,7 +69,7 @@ Replace all placeholders across all files:
 - `[YOUR_NAME]` → their name
 - `[VAULT_ROOT]` → detected absolute path
 
-Files: CLAUDE.md, SOPs/fireflies-processing.md, SOPs/weekly-client-review.md, SOPs/available-automations.md, Emax/_emax-overview.md, _templates/client-project-mapping.md, _templates/crm-client-mapping.md, _setup/settings.local.json
+Files: CLAUDE.md, SOPs/fireflies-processing.md, SOPs/weekly-client-review.md, SOPs/available-automations.md, Emax/_emax-overview.md, _templates/client-project-mapping.md, _templates/crm-client-mapping.md, _templates/solution.md, _setup/settings.local.json
 
 Update `Emax/_emax-overview.md` with their name, role, and platforms.
 
@@ -126,9 +126,9 @@ Use AskUserQuestion:
 
 If yes: ask for API token → add to `.env` → uncomment Todoist section in CLAUDE.md → test → report.
 
-**Step 2.5 — Install permissions**
+**Step 2.5 — Install permissions and structure**
 ```bash
-mkdir -p .claude
+mkdir -p .claude _solutions
 cp _setup/settings.local.json .claude/settings.local.json
 ```
 Add any tool-specific permissions discovered above.
@@ -186,6 +186,7 @@ Build the list based on Phase 2:
 - Friday Weekly Review — "Compile CRM-ready comments from activity logs every Friday"
 - Friday Review Nudge — "Flag clients needing context before the review" (needs Calendar)
 - Weekly Safety Net — "Mid-week catch for forgotten follow-ups"
+- Weekly Systems Review — "Analyse automation health and propose improvements every Friday"
 
 **Available if Claude in Chrome + Calendar connected:**
 - Daily Meeting Follow-up — "Process yesterday's Fireflies meetings into notes + emails each morning"

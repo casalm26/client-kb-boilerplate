@@ -57,3 +57,5 @@ Clients that have activity but thin KB context typically need one of:
 1. **Fireflies transcript** -- share the link, Claude processes it
 2. **Performance data** -- export from Meta Ads Manager, share with Claude
 3. **Quick verbal summary** -- [YOUR_NAME] dictates context, Claude logs it
+
+Also check: calendar meetings this week that have no corresponding meeting note file in `meetings/`.
